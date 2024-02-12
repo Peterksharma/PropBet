@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prop Bets Tracker</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        .header {
+            display: flex;
+            background-color: #f4f4f4;
+            padding: 8px;
+            font-weight: bold;
+        }
+        .row {
+            display: flex;
+            border-bottom: 1px solid #ddd;
+        }
+        .cell {
+            flex: 1;
+            padding: 8px;
+            text-align: center;
+            border-right: 1px solid #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .cell:last-child {
+            border-right: none;
+        }
+        .cell img {
+            margin-right: 8px;
+            height: 20px; /* You can adjust the size as needed */
+        }
+    </style>
+</head>
+<body>
+    <h2>Prop Bets Tracker</h2>
+    <div class="container">
+        <div class="header">
+            <div class="cell">Peter</div>
+            <div class="cell">Blake</div>
+            <div class="cell">Bryn</div>
+            <div class="cell">Brett</div>
+        </div>
+        <!-- Row for Brock Purdy bet -->
+        <div class="row">
+            <div class="cell"><img src="bad.svg" alt="Bet Status"> Brock Purdy 4 TDs</div>
+            <div class="cell"><img src="bad.svg" alt="Bet Status"> Marquez Valdes-Scantling Anytime TD</div>
+            <div class="cell"><img src="bad.svg" alt="Bet Status"> Christian McCaffrey Anytime TD Scorer</div>
+            <div class="cell"><img src="bad.svg" alt="Bet Status"> Christian McCaffrey 3+ TD</div>
+        </div>
+        <!-- Row for SF Wins bet -->
+        <div class="row">
+            <div class="cell"><img src="bad.svg" alt="Bet Status"> SF Wins</div>
+            <div class="cell"><img src="bad.svg" alt="Bet Status"> Christian McCaffrey Anytime Score</div>
+            <div class="cell"><img src="bad.svg" alt="Bet Status"> Patrick Mahomes 2+ TDs</div>
+            <div class="cell"><img src="bad.svg" alt="Bet Status"> Christian McCaffrey over 90.5 Yards</div>
+        </div>
+        <!-- Row for Christian McCaffrey bet -->
+        <div class="row">
+            <div class="cell"></div>
+            <div class="cell"><img src="bad.svg" alt="Bet Status"> Patrick Mahomes Over 1.5 Passing TDs</div>
+            <div class="cell"><img src="bad.svg" alt="Bet Status"> Chiefs Win</div>
+            <div class="cell"><img src="bad.svg" alt="Bet Status"> Patrick Mahomes Over 260.5 Passing YDs</div>
+        </div>
+        <!-- Row for Patrick Mahomes bet -->
+        <div class="row">
+            <div class="cell"></div>
+            <div class="cell"><img src="bad.svg" alt="Bet Status"> Christian McCaffrey Over 90.5</div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <div class="row">
+            <div class="cell"></div>
+            <div class="cell"><img src="bad.svg" alt="Bet Status"> Travis Kelce Over 6.5 Receptions</div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <div class="row">
+            <div class="cell"></div>
+            <div class="cell"><img src="bad.svg" alt="Bet Status"> Marquez Valdes-Scantling Over 1.5 Receptions</div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <!-- ... Add more rows as needed ... -->
+    </div>
+</body>
+</html>
